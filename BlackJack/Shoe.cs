@@ -14,10 +14,12 @@ namespace BlackJack
 
         public Card Deal()
         {
-            Console.WriteLine($"Card dealt - {Cards[i].Face} value - {Cards[i].Value}");
+            var dealtCard = new Card(Cards[i].Face, Cards[i].Value);
+            
+            Console.WriteLine($"Card dealt - {dealtCard.Face} value - {dealtCard.Value}");
             i++;
 
-            return Cards[i];
+            return dealtCard;
         }
 
         public void AddCardToShoe(Card card)
