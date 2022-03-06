@@ -56,220 +56,220 @@ shoe.AddCardToShoe(king);
 shoe.AddCardToShoe(king);
 shoe.AddCardToShoe(king);
 
-shoe.AddCardToShoe(queen);
-shoe.AddCardToShoe(queen);
-shoe.AddCardToShoe(queen);
-shoe.AddCardToShoe(queen);
+//shoe.AddCardToShoe(queen);
+//shoe.AddCardToShoe(queen);
+//shoe.AddCardToShoe(queen);
+//shoe.AddCardToShoe(queen);
 
-shoe.AddCardToShoe(queen);
-shoe.AddCardToShoe(queen);
-shoe.AddCardToShoe(queen);
-shoe.AddCardToShoe(queen);
+//shoe.AddCardToShoe(queen);
+//shoe.AddCardToShoe(queen);
+//shoe.AddCardToShoe(queen);
+//shoe.AddCardToShoe(queen);
 
-shoe.AddCardToShoe(queen);
-shoe.AddCardToShoe(queen);
-shoe.AddCardToShoe(queen);
-shoe.AddCardToShoe(queen);
+//shoe.AddCardToShoe(queen);
+//shoe.AddCardToShoe(queen);
+//shoe.AddCardToShoe(queen);
+//shoe.AddCardToShoe(queen);
 
-shoe.AddCardToShoe(queen);
-shoe.AddCardToShoe(queen);
-shoe.AddCardToShoe(queen);
-shoe.AddCardToShoe(queen);
+//shoe.AddCardToShoe(queen);
+//shoe.AddCardToShoe(queen);
+//shoe.AddCardToShoe(queen);
+//shoe.AddCardToShoe(queen);
 
-shoe.AddCardToShoe(jack);
-shoe.AddCardToShoe(jack);
-shoe.AddCardToShoe(jack);
-shoe.AddCardToShoe(jack);
+//shoe.AddCardToShoe(jack);
+//shoe.AddCardToShoe(jack);
+//shoe.AddCardToShoe(jack);
+//shoe.AddCardToShoe(jack);
 
-shoe.AddCardToShoe(jack);
-shoe.AddCardToShoe(jack);
-shoe.AddCardToShoe(jack);
-shoe.AddCardToShoe(jack);
+//shoe.AddCardToShoe(jack);
+//shoe.AddCardToShoe(jack);
+//shoe.AddCardToShoe(jack);
+//shoe.AddCardToShoe(jack);
 
-shoe.AddCardToShoe(jack);
-shoe.AddCardToShoe(jack);
-shoe.AddCardToShoe(jack);
-shoe.AddCardToShoe(jack);
+//shoe.AddCardToShoe(jack);
+//shoe.AddCardToShoe(jack);
+//shoe.AddCardToShoe(jack);
+//shoe.AddCardToShoe(jack);
 
-shoe.AddCardToShoe(jack);
-shoe.AddCardToShoe(jack);
-shoe.AddCardToShoe(jack);
-shoe.AddCardToShoe(jack);
+//shoe.AddCardToShoe(jack);
+//shoe.AddCardToShoe(jack);
+//shoe.AddCardToShoe(jack);
+//shoe.AddCardToShoe(jack);
 
-shoe.AddCardToShoe(ten);
-shoe.AddCardToShoe(ten);
-shoe.AddCardToShoe(ten);
-shoe.AddCardToShoe(ten);
+//shoe.AddCardToShoe(ten);
+//shoe.AddCardToShoe(ten);
+//shoe.AddCardToShoe(ten);
+//shoe.AddCardToShoe(ten);
 
-shoe.AddCardToShoe(ten);
-shoe.AddCardToShoe(ten);
-shoe.AddCardToShoe(ten);
-shoe.AddCardToShoe(ten);
+//shoe.AddCardToShoe(ten);
+//shoe.AddCardToShoe(ten);
+//shoe.AddCardToShoe(ten);
+//shoe.AddCardToShoe(ten);
 
-shoe.AddCardToShoe(ten);
-shoe.AddCardToShoe(ten);
-shoe.AddCardToShoe(ten);
-shoe.AddCardToShoe(ten);
+//shoe.AddCardToShoe(ten);
+//shoe.AddCardToShoe(ten);
+//shoe.AddCardToShoe(ten);
+//shoe.AddCardToShoe(ten);
 
-shoe.AddCardToShoe(ten);
-shoe.AddCardToShoe(ten);
-shoe.AddCardToShoe(ten);
-shoe.AddCardToShoe(ten);
+//shoe.AddCardToShoe(ten);
+//shoe.AddCardToShoe(ten);
+//shoe.AddCardToShoe(ten);
+//shoe.AddCardToShoe(ten);
 
-shoe.AddCardToShoe(nine);
-shoe.AddCardToShoe(nine);
-shoe.AddCardToShoe(nine);
-shoe.AddCardToShoe(nine);
+//shoe.AddCardToShoe(nine);
+//shoe.AddCardToShoe(nine);
+//shoe.AddCardToShoe(nine);
+//shoe.AddCardToShoe(nine);
 
-shoe.AddCardToShoe(nine);
-shoe.AddCardToShoe(nine);
-shoe.AddCardToShoe(nine);
-shoe.AddCardToShoe(nine);
+//shoe.AddCardToShoe(nine);
+//shoe.AddCardToShoe(nine);
+//shoe.AddCardToShoe(nine);
+//shoe.AddCardToShoe(nine);
 
-shoe.AddCardToShoe(nine);
-shoe.AddCardToShoe(nine);
-shoe.AddCardToShoe(nine);
-shoe.AddCardToShoe(nine);
+//shoe.AddCardToShoe(nine);
+//shoe.AddCardToShoe(nine);
+//shoe.AddCardToShoe(nine);
+//shoe.AddCardToShoe(nine);
 
-shoe.AddCardToShoe(nine);
-shoe.AddCardToShoe(nine);
-shoe.AddCardToShoe(nine);
-shoe.AddCardToShoe(nine);
+//shoe.AddCardToShoe(nine);
+//shoe.AddCardToShoe(nine);
+//shoe.AddCardToShoe(nine);
+//shoe.AddCardToShoe(nine);
 
-shoe.AddCardToShoe(eight);
-shoe.AddCardToShoe(eight);
-shoe.AddCardToShoe(eight);
-shoe.AddCardToShoe(eight);
+//shoe.AddCardToShoe(eight);
+//shoe.AddCardToShoe(eight);
+//shoe.AddCardToShoe(eight);
+//shoe.AddCardToShoe(eight);
 
-shoe.AddCardToShoe(eight);
-shoe.AddCardToShoe(eight);
-shoe.AddCardToShoe(eight);
-shoe.AddCardToShoe(eight);
+//shoe.AddCardToShoe(eight);
+//shoe.AddCardToShoe(eight);
+//shoe.AddCardToShoe(eight);
+//shoe.AddCardToShoe(eight);
 
-shoe.AddCardToShoe(eight);
-shoe.AddCardToShoe(eight);
-shoe.AddCardToShoe(eight);
-shoe.AddCardToShoe(eight);
+//shoe.AddCardToShoe(eight);
+//shoe.AddCardToShoe(eight);
+//shoe.AddCardToShoe(eight);
+//shoe.AddCardToShoe(eight);
 
-shoe.AddCardToShoe(eight);
-shoe.AddCardToShoe(eight);
-shoe.AddCardToShoe(eight);
-shoe.AddCardToShoe(eight);
+//shoe.AddCardToShoe(eight);
+//shoe.AddCardToShoe(eight);
+//shoe.AddCardToShoe(eight);
+//shoe.AddCardToShoe(eight);
 
-shoe.AddCardToShoe(seven);
-shoe.AddCardToShoe(seven);
-shoe.AddCardToShoe(seven);
-shoe.AddCardToShoe(seven);
+//shoe.AddCardToShoe(seven);
+//shoe.AddCardToShoe(seven);
+//shoe.AddCardToShoe(seven);
+//shoe.AddCardToShoe(seven);
 
-shoe.AddCardToShoe(seven);
-shoe.AddCardToShoe(seven);
-shoe.AddCardToShoe(seven);
-shoe.AddCardToShoe(seven);
+//shoe.AddCardToShoe(seven);
+//shoe.AddCardToShoe(seven);
+//shoe.AddCardToShoe(seven);
+//shoe.AddCardToShoe(seven);
 
-shoe.AddCardToShoe(seven);
-shoe.AddCardToShoe(seven);
-shoe.AddCardToShoe(seven);
-shoe.AddCardToShoe(seven);
+//shoe.AddCardToShoe(seven);
+//shoe.AddCardToShoe(seven);
+//shoe.AddCardToShoe(seven);
+//shoe.AddCardToShoe(seven);
 
-shoe.AddCardToShoe(seven);
-shoe.AddCardToShoe(seven);
-shoe.AddCardToShoe(seven);
-shoe.AddCardToShoe(seven);
+//shoe.AddCardToShoe(seven);
+//shoe.AddCardToShoe(seven);
+//shoe.AddCardToShoe(seven);
+//shoe.AddCardToShoe(seven);
 
-shoe.AddCardToShoe(six);
-shoe.AddCardToShoe(six);
-shoe.AddCardToShoe(six);
-shoe.AddCardToShoe(six);
+//shoe.AddCardToShoe(six);
+//shoe.AddCardToShoe(six);
+//shoe.AddCardToShoe(six);
+//shoe.AddCardToShoe(six);
 
-shoe.AddCardToShoe(six);
-shoe.AddCardToShoe(six);
-shoe.AddCardToShoe(six);
-shoe.AddCardToShoe(six);
+//shoe.AddCardToShoe(six);
+//shoe.AddCardToShoe(six);
+//shoe.AddCardToShoe(six);
+//shoe.AddCardToShoe(six);
 
-shoe.AddCardToShoe(six);
-shoe.AddCardToShoe(six);
-shoe.AddCardToShoe(six);
-shoe.AddCardToShoe(six);
+//shoe.AddCardToShoe(six);
+//shoe.AddCardToShoe(six);
+//shoe.AddCardToShoe(six);
+//shoe.AddCardToShoe(six);
 
-shoe.AddCardToShoe(six);
-shoe.AddCardToShoe(six);
-shoe.AddCardToShoe(six);
-shoe.AddCardToShoe(six);
+//shoe.AddCardToShoe(six);
+//shoe.AddCardToShoe(six);
+//shoe.AddCardToShoe(six);
+//shoe.AddCardToShoe(six);
 
-shoe.AddCardToShoe(five);
-shoe.AddCardToShoe(five);
-shoe.AddCardToShoe(five);
-shoe.AddCardToShoe(five);
+//shoe.AddCardToShoe(five);
+//shoe.AddCardToShoe(five);
+//shoe.AddCardToShoe(five);
+//shoe.AddCardToShoe(five);
 
-shoe.AddCardToShoe(five);
-shoe.AddCardToShoe(five);
-shoe.AddCardToShoe(five);
-shoe.AddCardToShoe(five);
+//shoe.AddCardToShoe(five);
+//shoe.AddCardToShoe(five);
+//shoe.AddCardToShoe(five);
+//shoe.AddCardToShoe(five);
 
-shoe.AddCardToShoe(five);
-shoe.AddCardToShoe(five);
-shoe.AddCardToShoe(five);
-shoe.AddCardToShoe(five);
+//shoe.AddCardToShoe(five);
+//shoe.AddCardToShoe(five);
+//shoe.AddCardToShoe(five);
+//shoe.AddCardToShoe(five);
 
-shoe.AddCardToShoe(five);
-shoe.AddCardToShoe(five);
-shoe.AddCardToShoe(five);
-shoe.AddCardToShoe(five);
+//shoe.AddCardToShoe(five);
+//shoe.AddCardToShoe(five);
+//shoe.AddCardToShoe(five);
+//shoe.AddCardToShoe(five);
 
-shoe.AddCardToShoe(four);
-shoe.AddCardToShoe(four);
-shoe.AddCardToShoe(four);
-shoe.AddCardToShoe(four);
+//shoe.AddCardToShoe(four);
+//shoe.AddCardToShoe(four);
+//shoe.AddCardToShoe(four);
+//shoe.AddCardToShoe(four);
 
-shoe.AddCardToShoe(four);
-shoe.AddCardToShoe(four);
-shoe.AddCardToShoe(four);
-shoe.AddCardToShoe(four);
+//shoe.AddCardToShoe(four);
+//shoe.AddCardToShoe(four);
+//shoe.AddCardToShoe(four);
+//shoe.AddCardToShoe(four);
 
-shoe.AddCardToShoe(four);
-shoe.AddCardToShoe(four);
-shoe.AddCardToShoe(four);
-shoe.AddCardToShoe(four);
+//shoe.AddCardToShoe(four);
+//shoe.AddCardToShoe(four);
+//shoe.AddCardToShoe(four);
+//shoe.AddCardToShoe(four);
 
-shoe.AddCardToShoe(four);
-shoe.AddCardToShoe(four);
-shoe.AddCardToShoe(four);
-shoe.AddCardToShoe(four);
+//shoe.AddCardToShoe(four);
+//shoe.AddCardToShoe(four);
+//shoe.AddCardToShoe(four);
+//shoe.AddCardToShoe(four);
 
-shoe.AddCardToShoe(three);
-shoe.AddCardToShoe(three);
-shoe.AddCardToShoe(three);
-shoe.AddCardToShoe(three);
+//shoe.AddCardToShoe(three);
+//shoe.AddCardToShoe(three);
+//shoe.AddCardToShoe(three);
+//shoe.AddCardToShoe(three);
 
-shoe.AddCardToShoe(three);
-shoe.AddCardToShoe(three);
-shoe.AddCardToShoe(three);
-shoe.AddCardToShoe(three);
+//shoe.AddCardToShoe(three);
+//shoe.AddCardToShoe(three);
+//shoe.AddCardToShoe(three);
+//shoe.AddCardToShoe(three);
 
-shoe.AddCardToShoe(three);
-shoe.AddCardToShoe(three);
-shoe.AddCardToShoe(three);
-shoe.AddCardToShoe(three);
+//shoe.AddCardToShoe(three);
+//shoe.AddCardToShoe(three);
+//shoe.AddCardToShoe(three);
+//shoe.AddCardToShoe(three);
 
-shoe.AddCardToShoe(deuce);
-shoe.AddCardToShoe(deuce);
-shoe.AddCardToShoe(deuce);
-shoe.AddCardToShoe(deuce);
+//shoe.AddCardToShoe(deuce);
+//shoe.AddCardToShoe(deuce);
+//shoe.AddCardToShoe(deuce);
+//shoe.AddCardToShoe(deuce);
 
-shoe.AddCardToShoe(deuce);
-shoe.AddCardToShoe(deuce);
-shoe.AddCardToShoe(deuce);
-shoe.AddCardToShoe(deuce);
+//shoe.AddCardToShoe(deuce);
+//shoe.AddCardToShoe(deuce);
+//shoe.AddCardToShoe(deuce);
+//shoe.AddCardToShoe(deuce);
 
-shoe.AddCardToShoe(deuce);
-shoe.AddCardToShoe(deuce);
-shoe.AddCardToShoe(deuce);
-shoe.AddCardToShoe(deuce);
+//shoe.AddCardToShoe(deuce);
+//shoe.AddCardToShoe(deuce);
+//shoe.AddCardToShoe(deuce);
+//shoe.AddCardToShoe(deuce);
 
-shoe.AddCardToShoe(deuce);
-shoe.AddCardToShoe(deuce);
-shoe.AddCardToShoe(deuce);
-shoe.AddCardToShoe(deuce);
+//shoe.AddCardToShoe(deuce);
+//shoe.AddCardToShoe(deuce);
+//shoe.AddCardToShoe(deuce);
+//shoe.AddCardToShoe(deuce);
 #endregion
 
 shoe.ShuffleCards();
@@ -317,8 +317,11 @@ void PlayAHand()
 
     if (player.CalculatAndGetTheCount(player.Cards.Any(x => x.Face == "A")) == 21)
     {
-        Console.WriteLine("BlackJack!");
+        Console.WriteLine("                                 BLACKJACK!!!");
         playersTurn = false;
+        dealerResult = dealer.CalculatAndGetTheCount(dealer.Cards.Any(x => x.Face == "A"));
+        playerResult = player.CalculatAndGetTheCount(player.Cards.Any(x => x.Face == "A"));
+        GameResult(dealerResult, playerResult, playerBusted, dealerBusted);
     }
 
     while (player.CalculatAndGetTheCount(player.Cards.Any(x => x.Face == "A")) < 21 && playersTurn)
