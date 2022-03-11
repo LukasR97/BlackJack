@@ -274,7 +274,17 @@ shoe.AddCardToShoe(deuce);
 
 shoe.ShuffleCards();
 
-Player player = new Player(1000);
+Player player = Game.GetPlayerChipCountFromUserInput();
+
+if (player.Chips == 0)
+{
+    while (player.Chips == 0)
+    {
+        Console.WriteLine("Try again.");
+        player = Game.GetPlayerChipCountFromUserInput();
+    }
+}
+
 Dealer dealer = new Dealer();
 
 //game logic:
@@ -314,6 +324,8 @@ void PlayAHand()
     Console.WriteLine($"                                          ");
     Console.WriteLine($"                               Your cards: {player.CalculatAndGetTheCount(player.Cards.Any(x => x.Face == "A"))}");
     Game.DisplayPlayerCards(player);
+    Game.DisplayPlayerChipCount(player);
+
 
     if (player.CalculatAndGetTheCount(player.Cards.Any(x => x.Face == "A")) == 21)
     {
