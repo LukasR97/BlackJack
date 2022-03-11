@@ -308,7 +308,7 @@ void PlayAHand()
     dealer.Cards.Clear();
     int dealerResult;
     int playerResult;
-    int betSize;
+    decimal betSize;
 
     bool playersTurn = true;
     bool playerBusted = false;
@@ -417,7 +417,7 @@ void PlayAHand()
 
 }
 
-void GameResult(int dealerResult, int playerResult, bool playerBusted, bool dealerBusted, int betSize, Player player, bool playerHitBlackJack)
+void GameResult(int dealerResult, int playerResult, bool playerBusted, bool dealerBusted, decimal betSize, Player player, bool playerHitBlackJack)
 {
     if (playerBusted)
     {

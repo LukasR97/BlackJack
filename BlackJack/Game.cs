@@ -36,13 +36,13 @@ namespace BlackJack
 
         public static Player GetPlayerChipCountFromUserInput()
         {
-            int chips;
+            decimal chips;
 
             Console.WriteLine("How many chips will you be playing?");
             var enteredValue = Console.ReadLine();
             try
             {
-                Convert.ToInt32(enteredValue);
+                Convert.ToDecimal(enteredValue);
             }
             catch (Exception)
             {
@@ -50,7 +50,7 @@ namespace BlackJack
                 return new Player(0);
             }
 
-            chips = Convert.ToInt32(enteredValue);
+            chips = Convert.ToDecimal(enteredValue);
 
             var result = new Player(chips);
             return result;
@@ -61,19 +61,19 @@ namespace BlackJack
             Console.WriteLine($"                                                      Your chips - {player.Chips}");
         }
 
-        public static int AskPlayerToPlaceABet(Player player)
+        public static decimal AskPlayerToPlaceABet(Player player)
         {
-            int result = 0;
+            decimal result = 0;
             Console.WriteLine($"You have {player.Chips} chips.");
             Console.WriteLine($"Place your bet!");
             var enteredValue = Console.ReadLine();
 
-            result = Convert.ToInt32(enteredValue);
+            result = Convert.ToDecimal(enteredValue);
 
             return result;
         }
 
-        public static void DisplayBet(int betSize)
+        public static void DisplayBet(decimal betSize)
         {
             Console.WriteLine($"                              Placed bet: {betSize}");
         }

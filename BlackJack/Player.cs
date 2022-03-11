@@ -8,12 +8,12 @@ namespace BlackJack
 {
     public class Player
     {
-        public int Chips { get; set; }
+        public decimal Chips { get; set; }
         public int Count { get; set; } = 0;
         
         public List<Card> Cards = new List<Card>();
 
-        public Player(int chips)
+        public Player(decimal chips)
         {
             Chips = chips; 
         }
