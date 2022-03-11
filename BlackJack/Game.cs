@@ -58,7 +58,24 @@ namespace BlackJack
 
         public static void DisplayPlayerChipCount(Player player)
         {
-            Console.WriteLine($"                             Your chips - {player.Chips}");
+            Console.WriteLine($"                                                      Your chips - {player.Chips}");
+        }
+
+        public static int AskPlayerToPlaceABet(Player player)
+        {
+            int result = 0;
+            Console.WriteLine($"You have {player.Chips} chips.");
+            Console.WriteLine($"Place your bet!");
+            var enteredValue = Console.ReadLine();
+
+            result = Convert.ToInt32(enteredValue);
+
+            return result;
+        }
+
+        public static void DisplayBet(int betSize)
+        {
+            Console.WriteLine($"                              Placed bet: {betSize}");
         }
     }
 }
