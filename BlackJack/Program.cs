@@ -411,6 +411,7 @@ void PlayAHand()
                     player.Chips = player.Chips - betSize;
                     betSize = betSize * 2;
                     playersTurn = false;
+                    Thread.Sleep(1000);
                 }
                 break;
 
