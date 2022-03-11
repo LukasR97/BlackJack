@@ -345,7 +345,7 @@ void PlayAHand()
         playersTurn = false;
         dealerResult = dealer.CalculatAndGetTheCount(dealer.Cards.Any(x => x.Face == "A"));
         playerResult = player.CalculatAndGetTheCount(player.Cards.Any(x => x.Face == "A"));
-        GameResult(dealerResult, playerResult, playerBusted, dealerBusted);
+        GameResult(dealerResult, playerResult, playerBusted, dealerBusted, betSize, player);
     }
 
     while (player.CalculatAndGetTheCount(player.Cards.Any(x => x.Face == "A")) < 21 && playersTurn)
