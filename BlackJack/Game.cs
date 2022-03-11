@@ -11,27 +11,59 @@ namespace BlackJack
         public static void DisplayPlayerCards(Player player)
         {
             string a = "";
+            string b = "";
+            string c = "";
+            string d = "";
+            string e = "";
+            string f = "";
             int i = 0;
             foreach (var card in player.Cards)
             {
-                a += $"| {player.Cards[i].Face}  |";
+                a += $"| {player.Cards[i].Face}      |";
+                b += $"|        |";
+                c += $"|        |";
+                d += $"|        |";
+                e += $"|      {player.Cards[i].Face} |";
+                f += $" -------- ";
                 i++;
             }
 
+            Console.WriteLine($"                                {f}");
             Console.WriteLine($"                                {a}");
+            Console.WriteLine($"                                {b}");
+            Console.WriteLine($"                                {c}");
+            Console.WriteLine($"                                {d}");
+            Console.WriteLine($"                                {e}");
+            Console.WriteLine($"                                {f}");
         }
 
         public static void DisplayDealerCards(Dealer dealer)
         {
             string a = "";
+            string b = "";
+            string c = "";
+            string d = "";
+            string e = "";
+            string f = "";
             int i = 0;
             foreach (var card in dealer.Cards)
             {
-                a += $"| {dealer.Cards[i].Face}  |";
+                a += $"| {dealer.Cards[i].Face}      |";
+                b += $"|        |";
+                c += $"|        |";
+                d += $"|        |";
+                e += $"|      {dealer.Cards[i].Face} |";
+                f += $" -------- ";
                 i++;
             }
 
+            Console.WriteLine($"                                {f}");
             Console.WriteLine($"                                {a}");
+            Console.WriteLine($"                                {b}");
+            Console.WriteLine($"                                {c}");
+            Console.WriteLine($"                                {d}");
+            Console.WriteLine($"                                {e}");
+            Console.WriteLine($"                                {f}");
         }
 
         public static Player GetPlayerChipCountFromUserInput()
