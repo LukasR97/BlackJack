@@ -364,7 +364,7 @@ void PlayAHand()
     //Player drawing
     while (player.CalculatAndGetTheCount(player.Cards.Any(x => x.Face == "A")) < 21 && playersTurn)
     {
-        Console.WriteLine("Would you like to hit? y/n");
+        Console.WriteLine("Would you like to hit? y/n, d - double down");
         entry = Console.ReadLine();
         switch (entry)
         {
@@ -386,6 +386,32 @@ void PlayAHand()
 
             case "n":
                 playersTurn = false;
+                break;
+
+            case "d":
+                Console.Clear();
+                player.Cards.Add(shoe.Deal());
+                Console.WriteLine($"                            Dealer is showing: {dealer.CalculatAndGetTheCount(dealer.Cards.Any(x => x.Face == "A"))}");
+                Game.DisplayDealerCards(dealer);
+                Console.WriteLine($"                                          ");
+                Console.WriteLine($"                                          ");
+                Game.DisplayBet(betSize);
+                Console.WriteLine($"                                          ");
+                Console.WriteLine($"                                          ");
+                Console.WriteLine($"                               Your cards: {player.CalculatAndGetTheCount(player.Cards.Any(x => x.Face == "A"))}");
+                Game.DisplayPlayerCards(player);
+                Game.DisplayPlayerChipCount(player);
+                if (player.CalculatAndGetTheCount(player.Cards.Any(x => x.Face == "A")) > 21) { playerBusted = true; playersTurn = false; }
+                if(player.Chips - betSize < 0)
+                {
+                    Console.WriteLine("Not enough chips to double your bet.");
+                }
+                else
+                {
+                    player.Chips = player.Chips - betSize;
+                    betSize = betSize * 2;
+                    playersTurn = false;
+                }
                 break;
 
         }
