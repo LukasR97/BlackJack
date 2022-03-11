@@ -295,9 +295,12 @@ PlayAHand();
 
 void PlayAHand()
 {
+    Console.Clear();
     if (player.Chips <= 0)
     {
         Console.WriteLine("I'm sorry, you're out of chips, thanks for playing! :)");
+        Console.WriteLine("Press any key to exit...");
+        Console.ReadKey();
         return;
     }
 
@@ -310,13 +313,14 @@ void PlayAHand()
     bool playersTurn = true;
     bool playerBusted = false;
     bool dealerBusted = false;
+    bool playerHitBlackJack = false;
 
     string? entry;
 
     betSize = Game.AskPlayerToPlaceABet(player);
-    
+
     player.Chips = player.Chips - betSize;
-        
+
     //Card for player
     player.Cards.Add(shoe.Deal());
 
@@ -345,9 +349,10 @@ void PlayAHand()
         playersTurn = false;
         dealerResult = dealer.CalculatAndGetTheCount(dealer.Cards.Any(x => x.Face == "A"));
         playerResult = player.CalculatAndGetTheCount(player.Cards.Any(x => x.Face == "A"));
-        GameResult(dealerResult, playerResult, playerBusted, dealerBusted, betSize, player);
+        playerHitBlackJack = true;
+        GameResult(dealerResult, playerResult, playerBusted, dealerBusted, betSize, player, playerHitBlackJack);
     }
-
+    //Player drawing
     while (player.CalculatAndGetTheCount(player.Cards.Any(x => x.Face == "A")) < 21 && playersTurn)
     {
         Console.WriteLine("Would you like to hit? y/n");
@@ -380,9 +385,9 @@ void PlayAHand()
     {
         dealerResult = dealer.CalculatAndGetTheCount(dealer.Cards.Any(x => x.Face == "A"));
         playerResult = player.CalculatAndGetTheCount(player.Cards.Any(x => x.Face == "A"));
-        GameResult(dealerResult, playerResult, playerBusted, dealerBusted, betSize, player);
+        GameResult(dealerResult, playerResult, playerBusted, dealerBusted, betSize, player, playerHitBlackJack);
     }
-
+    //Dealer drawing
     while (dealer.CalculatAndGetTheCount(dealer.Cards.Any(x => x.Face == "A")) <= 16 && !playerBusted)
     {
         Console.Clear();
@@ -407,42 +412,48 @@ void PlayAHand()
         dealerResult = dealer.CalculatAndGetTheCount(dealer.Cards.Any(x => x.Face == "A"));
         playerResult = player.CalculatAndGetTheCount(player.Cards.Any(x => x.Face == "A"));
 
-        GameResult(dealerResult, playerResult, playerBusted, dealerBusted, betSize, player);
+        GameResult(dealerResult, playerResult, playerBusted, dealerBusted, betSize, player, playerHitBlackJack);
     }
-    
+
 }
 
-void GameResult(int dealerResult, int playerResult, bool playerBusted, bool dealerBusted, int betSize, Player player)
+void GameResult(int dealerResult, int playerResult, bool playerBusted, bool dealerBusted, int betSize, Player player, bool playerHitBlackJack)
 {
     if (playerBusted)
     {
-        Console.WriteLine("                               YOU BUSTED!");
+        Console.WriteLine($"                               YOU BUSTED! You lost - {betSize} chips");
         //player.Chips = player.Chips - betSize;
-    }else if (dealerBusted)
+    }
+    else if (dealerBusted)
     {
-        Console.WriteLine("                         Dealer busts! YOU WIN!");
+        Console.WriteLine($"                         Dealer busts! YOU WIN - {betSize * 2} chips!");
         player.Chips = player.Chips + (betSize * 2);
 
     }
     else if (dealerResult > playerResult)
     {
-        Console.WriteLine("                               Dealer WINS!");
+        Console.WriteLine($"                               Dealer WINS! You lost - {betSize} chips");
         //player.Chips = player.Chips - betSize;
     }
-    else if (dealerResult < playerResult) 
+    else if (playerHitBlackJack)
     {
-        Console.WriteLine("                                 YOU WIN!");
+        Console.WriteLine($"                                YOU HIT BLACKJACK! YOU WIN - {(betSize * 2) + (betSize / 2)}");
+        player.Chips = player.Chips + (betSize * 2) + (betSize / 2);
+    }
+    else if (dealerResult < playerResult)
+    {
+        Console.WriteLine($"                                 YOU WIN - {betSize * 2} chips!");
         player.Chips = player.Chips + (betSize * 2);
     }
-    else if( dealerResult == playerResult)
+    else if (dealerResult == playerResult)
     {
-        Console.WriteLine("                                  PUSH!");
+        Console.WriteLine($"                                  PUSH! You got back your {betSize} chips!");
         player.Chips = player.Chips + betSize;
     }
 
     Console.WriteLine("Would you like to play another hand? y/n");
     var entry = Console.ReadLine();
-    if(entry == "y")
+    if (entry == "y")
     {
         PlayAHand();
     }
