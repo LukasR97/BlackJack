@@ -387,6 +387,7 @@ void PlayAHand()
             case "n":
                 playersTurn = false;
                 break;
+
         }
     }
 
@@ -461,8 +462,22 @@ void GameResult(int dealerResult, int playerResult, bool playerBusted, bool deal
 
     Console.WriteLine("Would you like to play another hand? y/n");
     var entry = Console.ReadLine();
-    if (entry == "y")
+
+    switch (entry)
     {
-        PlayAHand();
+        case "y":
+            PlayAHand();
+            break;
+
+        case "n":
+            Console.WriteLine("Thank you for playing, the game will close in 3 seconds");
+            Thread.Sleep(3000);
+            Environment.Exit(0);
+            break;
+
+        default:
+            PlayAHand();
+            break;
     }
+    
 }
