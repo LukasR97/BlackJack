@@ -298,7 +298,7 @@ void PlayAHand()
     Console.Clear();
     if (player.Chips <= 0)
     {
-        Console.WriteLine("I'm sorry, you're out of chips, thanks for playing! :)");
+        Console.WriteLine("I'm sorry, but you're out of chips, thanks for playing! :)");
         Console.WriteLine("Press any key to exit...");
         Console.ReadKey();
         return;
@@ -412,8 +412,7 @@ void PlayAHand()
         Game.DisplayPlayerCards(player);
         Game.DisplayPlayerChipCount(player);
         if (dealer.CalculatAndGetTheCount(dealer.Cards.Any(x => x.Face == "A")) > 21) { dealerBusted = true; }
-        Console.WriteLine("Press any key to continue the game...");
-        Console.ReadLine();
+        Thread.Sleep(1000);
     }
 
     if (!playerBusted)
