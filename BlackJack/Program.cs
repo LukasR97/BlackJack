@@ -314,10 +314,19 @@ void PlayAHand()
     bool playerBusted = false;
     bool dealerBusted = false;
     bool playerHitBlackJack = false;
+    bool playerBetValidation = false;
 
     string? entry;
 
     betSize = Game.AskPlayerToPlaceABet(player);
+    playerBetValidation = Game.ValidatePlayerBet(player, betSize);
+
+    while (!playerBetValidation)
+    {
+        Console.WriteLine("Try again...");
+        betSize = Game.AskPlayerToPlaceABet(player);
+        playerBetValidation = Game.ValidatePlayerBet(player, betSize);
+    }
 
     player.Chips = player.Chips - betSize;
 
