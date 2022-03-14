@@ -402,7 +402,11 @@ void PlayAHand()
                 Game.DisplayPlayerCards(player);
                 Game.DisplayPlayerChipCount(player);
                 if (player.CalculatAndGetTheCount(player.Cards.Any(x => x.Face == "A")) > 21) { playerBusted = true; playersTurn = false; }
-                if(player.Chips - betSize < 0)
+                if(player.Cards.Count >= 4)
+                {
+                    Console.WriteLine("You can only double down on the first draw");
+                }
+                else if(player.Chips - betSize < 0)
                 {
                     Console.WriteLine("Not enough chips to double your bet.");
                 }
